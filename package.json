@@ -1,0 +1,23 @@
+{
+  "name": "bindhumallikarjuna-portfolio",
+  "version": "1.0.0",
+  "description": "Professional engineering portfolio for M Bindhu - Full-Stack Developer & AI/ML Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "preview": "open index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "full-stack",
+    "react",
+    "nextjs",
+    "deep-learning",
+    "multimodal-ai",
+    "python",
+    "laravel"
+  ],
+  "author": "M Bindhu",
+  "license": "MIT"
+}
