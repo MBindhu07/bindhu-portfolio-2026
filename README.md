@@ -1,82 +1,128 @@
 # ⚡ M Bindhu — Professional Engineering Portfolio
 
-A modern, responsive, high-performance portfolio website built for **M Bindhu** (Final-Year Computer Science & Design Undergraduate at Atria Institute of Technology, VTU).
+[![Live Site](https://img.shields.io/badge/Live%20Site-GitHub%20Pages-success?style=for-the-badge&logo=github)](https://mbindhu07.github.io/bindhu-portfolio-2026/)
+[![Repository](https://img.shields.io/badge/Repository-bindhu--portfolio--2026-blue?style=for-the-badge&logo=github)](https://github.com/MBindhu07/bindhu-portfolio-2026)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 
-Showcases **3 web development internships**, **2 flagship AI/ML systems**, **AWS Cloud Practitioner certification**, and a comprehensive full-stack engineering matrix.
-
----
-
-## ✨ Features & Highlights
-
-- **Aesthetic Design**: Dark obsidian glassmorphic theme with neon cyan & electric purple ambient glows, plus a seamless light-mode toggle.
-- **Dynamic Particle Constellation**: 60fps HTML5 Canvas with fluid mouse tracking and proximity-based particle physics.
-- **Dynamic Typing Hero**: Rotating multi-role presentation highlight.
-- **Interactive AI Playground**:
-  - **Multimodal Attack Detection Simulator**: Live inference simulation testing NLP text perplexity, audio spectrogram analysis, and ConvNet vision artifacts with an ensemble threat score.
-  - **SafeAI Drive Real-Time Telemetry**: Real-time driver fatigue (EAR / PERCLOS), distraction detection, and collision risk score visualizer.
-- **Filterable & Searchable Skills Matrix**: Instant category filtering (Languages, Frontend, Backend, AI/ML, Cloud, Core CS) with real-time live search.
-- **Project Deep-Dive Modals**: Architectural breakdown, pipelines, and technical specifications for every flagship project.
-- **Interactive Experience Timeline**: Detailed walkthrough of production contributions at 1Stop, SNESTRON Systems, and Rotaract Club of Atria I.T.
-- **1-Click Copy & Direct Contact**: Instant copy-to-clipboard for email (`bindhu07062005@gmail.com`) with toast feedback.
-- **Curriculum Vitae (CV) Modal with Print-to-PDF**: Clean, professional printable resume view formatted to PDF standards.
-- **Zero-Dependency & Offline-Ready**: Pure semantic HTML5, modern CSS3, and vanilla ES6+ JavaScript. No build step or heavy node_modules required.
+> A modern, mobile-first, high-performance developer portfolio website engineered for **M Bindhu** — Final-Year Computer Science & Design Undergraduate at Atria Institute of Technology (VTU), Bengaluru.
 
 ---
 
-## 🚀 Quick Start (Local Preview)
+## 🌐 Live URLs
 
-### Option 1: Open Directly in Your Browser (Mac / Safari / Chrome)
-Simply double-click `index.html` or run:
-```bash
-open index.html
+* **🚀 Deployed Live Website**: [https://mbindhu07.github.io/bindhu-portfolio-2026/](https://mbindhu07.github.io/bindhu-portfolio-2026/)
+* **📦 Public GitHub Repository**: [https://github.com/MBindhu07/bindhu-portfolio-2026](https://github.com/MBindhu07/bindhu-portfolio-2026)
+
+---
+
+## 🎯 Task & Scope Overview
+
+Construct and deploy a modern, responsive personal developer portfolio showcasing:
+* **Engineering Projects**: Multimodal Deep Learning AI Attack Detection, SafeAI Drive (Computer Vision Driver Monitoring), Full-Stack MERN + OpenGL graphics engine, and Laravel enterprise REST backend.
+* **Credentials & Education**: B.E. in Computer Science & Design (VTU), AWS Certified Cloud Practitioner, and 10+ industry certifications.
+* **Work Experience**: 3 web development internships (1Stop, SNESTRON Systems Pvt. Ltd., and Rotaract Club of Atria I.T.).
+* **Interactive UI**: Dark/Light theme toggle with `localStorage` persistence, mobile hamburger menu, interactive AI telemetry playground, searchable skills matrix, deep-dive architectural modals, and printable CV view.
+* **Deployment**: Live hosted on **GitHub Pages** with production SSL.
+
+---
+
+## ✨ Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| **🌓 Theme Switcher** | Dark obsidian glassmorphic theme (default) & clean light mode toggle with `localStorage` persistence. |
+| **📱 Mobile-First Responsive** | Crafted using Flexbox, CSS Grid, clamp typography, and custom media queries for mobile, tablet, and desktop viewports. |
+| **🌌 Particle Constellation** | Zero-dependency 60fps HTML5 Canvas background with dynamic cursor proximity physics. |
+| **⌨️ Dynamic Typing Hero** | Rotating presentation highlighting Full-Stack Web Development, AI/ML, and Computer Graphics. |
+| **🧪 Interactive AI Playground** | Live inference simulator featuring **Multimodal AI Attack Detection** and **SafeAI Drive Driver Telemetry**. |
+| **🔍 Searchable Skills Matrix** | Real-time search filter and category chips (Languages, Frontend, Backend, AI/ML, Cloud, Core CS). |
+| **🪟 Project Deep-Dive Modals** | Accessible architectural breakdown overlays with technical specifications and stack tags. |
+| **⏳ Experience Timeline** | Interactive chronological track record of production internship contributions. |
+| **📋 CV Modal & Print-to-PDF** | Formatted paper curriculum vitae with built-in `window.print()` PDF generator. |
+| **📬 1-Click Copy & Contact Form** | One-click clipboard copy for email/phone with toast alerts, plus validated contact form. |
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+* **Frontend Markup**: Semantic HTML5 (Header, Nav, Main, Section, Article, Footer, SVG icons)
+* **Styling**: Modern CSS3 (CSS Custom Properties / Design Tokens, Flexbox, CSS Grid, Glassmorphism backdrop-filters, Print CSS)
+* **Scripting**: Vanilla JavaScript ES6+ (DOM manipulation, HTML5 Canvas API, IntersectionObserver, LocalStorage API, Clipboard API)
+* **Preview Server**: Node.js built-in HTTP module (`server.js`) — zero third-party dependencies
+* **Hosting**: GitHub Pages (Custom branch deployment with automatic HTTPS/TLS)
+
+---
+
+## 📁 Repository Structure
+
+```text
+bindhu-portfolio-2026/
+├── index.html       # Primary semantic single-page application & all landmarks
+├── styles.css       # Complete CSS design tokens, glassmorphism, responsive grid, animations
+├── script.js        # Canvas particles, theme toggle, mobile menu, modals, AI simulator
+├── server.js        # Zero-dependency local Node.js HTTP preview server
+├── package.json     # NPM scripts and project metadata
+└── README.md        # Comprehensive project documentation
 ```
 
-### Option 2: Run Built-In Local Node Server
+---
+
+## 🚀 Local Development Setup
+
+### Option 1: Direct Browser Launch
+Open `index.html` directly in any modern browser:
 ```bash
+# macOS
+open index.html
+
+# Linux
+xdg-open index.html
+
+# Windows
+start index.html
+```
+
+### Option 2: Built-In Node.js Preview Server
+Run the local zero-dependency preview server:
+```bash
+# Clone the repository
+git clone https://github.com/MBindhu07/bindhu-portfolio-2026.git
+cd bindhu-portfolio-2026
+
+# Start local server
 npm start
 # OR:
 node server.js
 ```
-Then visit `http://localhost:3000` in your browser.
+Then visit: `http://localhost:3000`
 
 ---
 
-## 📁 Project Structure
+## 🌐 Live Deployment Verification
 
-```text
-bindhumallikarjuna-portfolio/
-├── index.html       # Semantic HTML5 markup, accessible landmarks, OpenGraph tags, SVGs
-├── styles.css       # Design tokens, glassmorphism, responsive grid, animations, print rules
-├── script.js        # Canvas particles, typing animation, live simulators, modals, filters
-├── server.js        # Built-in zero-dependency Node HTTP preview server
-├── package.json     # NPM scripts and project metadata
-└── README.md        # Documentation and deployment guide
-```
+This portfolio is configured for zero-configuration continuous hosting:
 
----
+1. **GitHub Pages**:
+   * Repository: `https://github.com/MBindhu07/bindhu-portfolio-2026`
+   * Source: `main` branch (`/root`)
+   * Live URL: [https://mbindhu07.github.io/bindhu-portfolio-2026/](https://mbindhu07.github.io/bindhu-portfolio-2026/)
+   * HTTP Status: `200 OK` (TLS / HTTPS enabled)
 
-## 🌐 1-Click Deployment
-
-### Deploy to GitHub Pages (Free)
-1. Initialize git and push to GitHub:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: initial commit of M Bindhu portfolio"
-   git branch -M main
-   git remote add origin https://github.com/MBindhu07/portfolio.git
-   git push -u origin main
-   ```
-2. Go to your repository settings on GitHub &rarr; **Pages** &rarr; select **main** branch and `/root` &rarr; click **Save**.
-3. Your portfolio is live at `https://mbindhu07.github.io/portfolio/`!
-
-### Deploy to Vercel / Netlify
-- Drag and drop this folder directly into the Netlify or Vercel dashboard for instant SSL-secured deployment.
+2. **Alternative Deployment (Vercel / Netlify)**:
+   * Both Vercel and Netlify auto-detect static `index.html` projects without build configurations.
+   * Can be deployed via `npx vercel` or by dragging the directory to the Netlify dashboard.
 
 ---
 
-## 📬 Contact & Links
+## 📬 Contact & Credentials
 
-- **Email**: [bindhu07062005@gmail.com](mailto:bindhu07062005@gmail.com)
-- **LinkedIn**: [linkedin.com/in/bindhu-m-57b00a332](https://linkedin.com/in/bindhu-m-57b00a332)
-- **GitHub**: [github.com/MBindhu07](https://github.com/MBindhu07)
+* **Developer**: M Bindhu
+* **Degree**: B.E. in Computer Science & Design (VTU), Atria Institute of Technology, Bengaluru
+* **Email**: [bindhu07062005@gmail.com](mailto:bindhu07062005@gmail.com)
+* **Phone**: [+91-7717398862](tel:+917717398862)
+* **LinkedIn**: [linkedin.com/in/bindhu-m-57b00a332](https://linkedin.com/in/bindhu-m-57b00a332)
+* **GitHub**: [github.com/MBindhu07](https://github.com/MBindhu07)
+
+---
+
+&copy; 2026 M Bindhu. Built with modern web standards. Licensed under the [MIT License](LICENSE).
